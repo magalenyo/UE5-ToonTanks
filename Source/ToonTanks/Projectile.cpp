@@ -29,6 +29,14 @@ void AProjectile::BeginPlay()
 	Super::BeginPlay();
 	
 	projectileMesh->OnComponentHit.AddDynamic(this, &AProjectile::OnHit);
+
+	if (launchSound) {
+		UGameplayStatics::PlaySoundAtLocation(
+			this,
+			launchSound,
+			GetActorLocation()
+		);
+	}
 }
 
 // Called every frame
@@ -64,6 +72,14 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 				hitParticles,
 				GetActorLocation(),
 				GetActorRotation()
+			);
+		}
+
+		if (hitSound) {
+			UGameplayStatics::PlaySoundAtLocation(
+				this,
+				hitSound,
+				GetActorLocation()
 			);
 		}
 	}

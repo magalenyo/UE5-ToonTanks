@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "Projectile.generated.h"
 
+class USoundBase;	// Just another way to forward declare it
+
 UCLASS()
 class TOONTANKS_API AProjectile : public AActor
 {
@@ -39,6 +41,12 @@ private:
 
 	UPROPERTY(VisibleAnywhere, Category = "Combat")
 	class UParticleSystemComponent* trailParticles;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	USoundBase* launchSound;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	USoundBase* hitSound;
 
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);

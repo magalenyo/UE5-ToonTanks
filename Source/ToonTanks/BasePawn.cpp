@@ -35,6 +35,14 @@ void ABasePawn::HandleDestruction() {
 			GetActorRotation()
 		);
 	}
+
+	if (deathSound) {
+		UGameplayStatics::PlaySoundAtLocation(
+			this,
+			deathSound,
+			GetActorLocation()
+		);
+	}
 }
 
 void ABasePawn::RotateTurret(FVector lookAtTarget) {
