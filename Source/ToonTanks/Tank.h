@@ -15,6 +15,7 @@ class TOONTANKS_API ATank : public ABasePawn
 	GENERATED_BODY()
 
 public:
+
 	ATank();
 
 	// Called to bind functionality to input
@@ -26,6 +27,8 @@ public:
 	void HandleDestruction();
 
 	APlayerController* GetPlayerController() const { return playerController; }
+
+	bool bAlive = true;
 	
 protected:
 	// Called when the game starts or when spawned

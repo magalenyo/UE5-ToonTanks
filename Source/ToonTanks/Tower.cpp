@@ -28,7 +28,12 @@ void ATower::BeginPlay() {
 }
 
 void ATower::CheckFireCondition() {
-    if (InFireRange()) {
+    if (!tank) {
+        // Recommended curly braces by Unreal Engine best practices
+        return;
+    }
+
+    if (tank->bAlive && InFireRange()) {
         Fire();
     }
 }
