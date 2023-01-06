@@ -22,6 +22,10 @@ public:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void HandleDestruction();
+
+	APlayerController* GetPlayerController() const { return playerController; }
 	
 protected:
 	// Called when the game starts or when spawned

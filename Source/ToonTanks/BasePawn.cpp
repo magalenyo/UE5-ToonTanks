@@ -4,6 +4,7 @@
 #include "BasePawn.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Projectile.h"
 
 // Sets default values
 ABasePawn::ABasePawn()
@@ -24,6 +25,10 @@ ABasePawn::ABasePawn()
 	projectileSpawnPoint->SetupAttachment(turretMesh);
 }
 
+void ABasePawn::HandleDestruction() {
+	
+}
+
 void ABasePawn::RotateTurret(FVector lookAtTarget) {
 	FVector toTarget = lookAtTarget - turretMesh->GetComponentLocation();
 	FRotator lookAtRotation = FRotator(0.f, toTarget.Rotation().Yaw, 0.f);
@@ -37,5 +42,9 @@ void ABasePawn::RotateTurret(FVector lookAtTarget) {
 }
 
 void ABasePawn::Fire() {
-	FVector projectileSpawnPointLocation = projectileSpawnPoint->GetComponentLocation();
+	FVector location = projectileSpawnPoint->GetComponentLocation();
+	FRotator rotation = projectileSpawnPoint->GetComponentRotation();
+
+	auto projectile = GetWorld()->SpawnActor<AProjectile>(projectileClass, location, rotation);
+	projectile->SetOwner(this);
 }
