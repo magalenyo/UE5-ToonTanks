@@ -5,6 +5,7 @@
 #include "GameFramework/DamageType.h"
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "Camera/CameraShakeBase.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -81,6 +82,10 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 				hitSound,
 				GetActorLocation()
 			);
+		}
+
+		if (hitCameraShakeClass) {
+			GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(hitCameraShakeClass);
 		}
 	}
 

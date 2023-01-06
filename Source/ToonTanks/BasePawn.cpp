@@ -6,6 +6,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Projectile.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "Camera/CameraShakeBase.h"
 
 // Sets default values
 ABasePawn::ABasePawn()
@@ -42,6 +43,12 @@ void ABasePawn::HandleDestruction() {
 			deathSound,
 			GetActorLocation()
 		);
+	}
+
+	if (deathCameraShakeClass) {
+		if (deathCameraShakeClass) {
+			GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(deathCameraShakeClass);
+		}
 	}
 }
 
