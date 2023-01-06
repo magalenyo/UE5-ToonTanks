@@ -866,3 +866,226 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.06-18.19.22:580][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.01.06-18.19.22:591][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
 [2023.01.06-18.19.22:616][336]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.01.06-18.20.18:845][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../UE Projects/ToonTanks 5.0/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.06-18.20.18:855][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.01.06-18.20.18:862][ 99]LogPackageLocalizationCache: Processed 27 localized package path(s) for 1 prioritized culture(s) in 0.004352 seconds
+[2023.01.06-18.20.18:898][ 99]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2023.01.06-18.20.18:898][ 99]LogSavePackage: Moving '../../../../UE Projects/ToonTanks 5.0/Saved/Main9958710F46E81B559EEA1A9A64A3A767.tmp' to '../../../../UE Projects/ToonTanks 5.0/Content/Maps/Main.umap'
+[2023.01.06-18.20.18:917][ 99]LogFileHelpers: No new changes to save!
+[2023.01.06-18.20.18:928][ 99]AssetCheck: New page: Asset Save: Main
+[2023.01.06-18.20.18:928][ 99]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2023.01.06-18.20.48:824][639]LogViewport: Scene viewport resized to 762x871, mode Windowed.
+[2023.01.06-18.20.48:845][640]LogViewport: Scene viewport resized to 762x865, mode Windowed.
+[2023.01.06-18.20.48:869][641]LogViewport: Scene viewport resized to 762x859, mode Windowed.
+[2023.01.06-18.20.48:898][642]LogViewport: Scene viewport resized to 762x848, mode Windowed.
+[2023.01.06-18.20.48:924][643]LogViewport: Scene viewport resized to 762x837, mode Windowed.
+[2023.01.06-18.20.48:947][644]LogViewport: Scene viewport resized to 762x828, mode Windowed.
+[2023.01.06-18.20.48:972][645]LogViewport: Scene viewport resized to 762x820, mode Windowed.
+[2023.01.06-18.20.49:001][646]LogViewport: Scene viewport resized to 762x813, mode Windowed.
+[2023.01.06-18.20.49:031][647]LogViewport: Scene viewport resized to 762x806, mode Windowed.
+[2023.01.06-18.20.49:057][648]LogViewport: Scene viewport resized to 762x803, mode Windowed.
+[2023.01.06-18.20.49:085][649]LogViewport: Scene viewport resized to 762x799, mode Windowed.
+[2023.01.06-18.20.49:110][650]LogViewport: Scene viewport resized to 762x795, mode Windowed.
+[2023.01.06-18.20.49:142][652]LogViewport: Scene viewport resized to 762x794, mode Windowed.
+[2023.01.06-18.20.49:165][653]LogViewport: Scene viewport resized to 762x792, mode Windowed.
+[2023.01.06-18.20.49:190][654]LogViewport: Scene viewport resized to 762x789, mode Windowed.
+[2023.01.06-18.20.49:211][655]LogViewport: Scene viewport resized to 762x788, mode Windowed.
+[2023.01.06-18.20.49:235][656]LogViewport: Scene viewport resized to 762x786, mode Windowed.
+[2023.01.06-18.20.49:257][657]LogViewport: Scene viewport resized to 762x784, mode Windowed.
+[2023.01.06-18.20.49:321][663]LogViewport: Scene viewport resized to 762x783, mode Windowed.
+[2023.01.06-18.20.49:367][667]LogViewport: Scene viewport resized to 762x781, mode Windowed.
+[2023.01.06-18.20.49:431][673]LogViewport: Scene viewport resized to 762x779, mode Windowed.
+[2023.01.06-18.20.49:451][674]LogViewport: Scene viewport resized to 762x778, mode Windowed.
+[2023.01.06-18.20.49:475][675]LogViewport: Scene viewport resized to 762x775, mode Windowed.
+[2023.01.06-18.20.49:498][676]LogViewport: Scene viewport resized to 762x774, mode Windowed.
+[2023.01.06-18.20.49:520][677]LogViewport: Scene viewport resized to 762x771, mode Windowed.
+[2023.01.06-18.20.49:542][678]LogViewport: Scene viewport resized to 762x768, mode Windowed.
+[2023.01.06-18.20.49:563][679]LogViewport: Scene viewport resized to 762x767, mode Windowed.
+[2023.01.06-18.20.49:584][680]LogViewport: Scene viewport resized to 762x766, mode Windowed.
+[2023.01.06-18.20.49:689][691]LogViewport: Scene viewport resized to 762x764, mode Windowed.
+[2023.01.06-18.20.57:634][497]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.06-18.20.57:694][497]LogSlate: Took 0.008060 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.06-18.21.42:203][485]Candidate modules for hot reload:
+[2023.01.06-18.21.42:203][485]  ToonTanks
+[2023.01.06-18.21.42:209][485]Launching UnrealBuildTool... [D:/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1235 ToonTanksEditor Win64 Development -Project="D:/UE Projects/ToonTanks 5.0/ToonTanks.uproject" "D:/UE Projects/ToonTanks 5.0/ToonTanks.uproject"  -IgnoreJunk]
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: New page: Compilation - Jan 6, 2023, 8:21:55 PM
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Log file: C:\Users\mange\AppData\Local\UnrealBuildTool\Log.txt
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE Projects\ToonTanks 5.0).
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (source file added)
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2023.01.06-18.21.55:253][485]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE Projects\ToonTanks 5.0\ToonTanks.uproject" "D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mange\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 4,6447762 seconds
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Building ToonTanksEditor...
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: [Adaptive Build] Excluded from ToonTanks unity file: ToonTanksPlayerController.cpp
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+[2023.01.06-18.21.55:253][485]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2023.01.06-18.21.55:253][485]CompilerResultsLog:   Requested 1,5 GB free memory per action, 3,99 GB available: limiting max parallel actions to 2
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Building 6 actions with 2 processes...
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: [1/6] Compile ToonTanks.init.gen.cpp
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: [2/6] Compile ToonTanksPlayerController.cpp
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: [3/6] Compile ToonTanksPlayerController.gen.cpp
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: [4/6] Link UnrealEditor-ToonTanks-1235.lib
+[2023.01.06-18.21.55:253][485]CompilerResultsLog:    Creando biblioteca D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-1235.lib y objeto D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-1235.exp
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: [5/6] Link UnrealEditor-ToonTanks-1235.dll
+[2023.01.06-18.21.55:253][485]CompilerResultsLog:    Creando biblioteca D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-1235.suppressed.lib y objeto D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-1235.suppressed.exp
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: [6/6] WriteMetadata ToonTanksEditor.target
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Total time in Parallel executor: 4,25 seconds
+[2023.01.06-18.21.55:253][485]CompilerResultsLog: Total execution time: 12,90 seconds
+[2023.01.06-18.21.55:253][485]LogMainFrame: MainFrame: Module compiling took 13.057 seconds
+[2023.01.06-18.21.55:282][485]LogClass: /Script/ToonTanks Reload.
+[2023.01.06-18.21.55:287][485]LogClass: Could not find existing class ToonTanksPlayerController in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.01.06-18.21.55:355][485]Display: HotReload took 13.2s.
+[2023.01.06-18.21.55:355][485]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 6 classes unchanged, 2 functions remapped
+[2023.01.06-18.21.55:355][485]Warning: HotReload operation took 13.2s.
+[2023.01.06-18.21.55:382][485]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.01.06-18.21.55:392][485]LogHotReload: New module detected: UnrealEditor-ToonTanks-1235.dll
+[2023.01.06-18.21.55:409][486]LogHotReload: Starting Hot-Reload from IDE
+[2023.01.06-18.21.55:524][486]Display: HotReload took  0.1s.
+[2023.01.06-18.21.55:524][486]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.01.06-18.22.06:535][ 47]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.01.06-18.22.06:541][ 47]LogContentBrowser: Creating deferred item: NewFolder
+[2023.01.06-18.22.06:548][ 48]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.01.06-18.22.09:128][350]LogContentBrowser: Attempting asset rename: NewFolder -> PlayerController
+[2023.01.06-18.22.09:129][350]LogContentBrowser: End creating deferred item NewFolder
+[2023.01.06-18.22.42:388][706]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.06-18.22.47:091][706]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.06-18.22.47:100][706]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.01.06-18.22.47:104][706]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.01.06-18.22.47:134][708]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.01.06-18.22.55:342][679]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ToonTanksPlayerController
+[2023.01.06-18.22.55:358][679]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.01.06-18.22.59:357][152]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode/BP_ToonTanksGameMode.BP_ToonTanksGameMode
+[2023.01.06-18.22.59:360][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-18.23.03:917][152]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.01.06-18.23.03:917][152]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049395s
+[2023.01.06-18.23.03:997][152]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000455s (0.129045s overbudget)
+[2023.01.06-18.23.07:380][302]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.06-18.23.11:541][793]BlueprintLog: New page: Compile BP_ToonTanksGameMode
+[2023.01.06-18.23.11:594][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.01.06-18.23.11:872][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode/BP_ToonTanksGameMode" FILE="../../../../UE Projects/ToonTanks 5.0/Content/Blueprints/GameMode/BP_ToonTanksGameMode.uasset" SILENT=true
+[2023.01.06-18.23.11:876][819]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode/BP_ToonTanksGameMode
+[2023.01.06-18.23.11:877][819]LogSavePackage: Moving '../../../../UE Projects/ToonTanks 5.0/Saved/BP_ToonTanksGameMode2A1C865A4CC523FE81C1F98A6EC6A896.tmp' to '../../../../UE Projects/ToonTanks 5.0/Content/Blueprints/GameMode/BP_ToonTanksGameMode.uasset'
+[2023.01.06-18.23.11:891][819]AssetCheck: New page: Asset Save: BP_ToonTanksGameMode
+[2023.01.06-18.23.11:891][819]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameMode/BP_ToonTanksGameMode.BP_ToonTanksGameMode
+[2023.01.06-18.23.12:993][949]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.01.06-18.23.12:993][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-18.23.15:756][258]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.01.06-18.23.15:756][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-18.23.16:363][258]LogViewport: Scene viewport resized to 482x277, mode Windowed.
+[2023.01.06-18.23.17:611][354]LogViewport: Scene viewport resized to 481x295, mode Windowed.
+[2023.01.06-18.23.17:679][356]LogViewport: Scene viewport resized to 321x159, mode Windowed.
+[2023.01.06-18.23.17:713][357]LogViewport: Scene viewport resized to 299x141, mode Windowed.
+[2023.01.06-18.23.17:748][359]LogViewport: Scene viewport resized to 482x976, mode Windowed.
+[2023.01.06-18.23.18:074][387]LogSlate: Window 'BP_ToonTanksPlayerController' being destroyed
+[2023.01.06-18.23.19:040][496]BlueprintLog: New page: Compile BP_ToonTanksPlayerController
+[2023.01.06-18.23.19:089][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.01.06-18.23.19:339][520]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2023.01.06-18.23.19:339][520]LogSavePackage: Moving '../../../../UE Projects/ToonTanks 5.0/Saved/BP_ToonTanksPlayerController23BAF173463FC23E5175BAA7537A906A.tmp' to '../../../../UE Projects/ToonTanks 5.0/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2023.01.06-18.23.19:353][520]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2023.01.06-18.23.19:353][520]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.01.06-18.23.30:188][538]Running D:/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -projectfiles -project="D:/UE Projects/ToonTanks 5.0/ToonTanks.uproject" -game -rocket -progress
+[2023.01.06-18.23.30:493][538]Log file: C:\Users\mange\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.01.06-18.23.30:594][538]
+[2023.01.06-18.23.30:594][538]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.01.06-18.23.30:594][538]See the log file for detailed information
+[2023.01.06-18.23.30:594][538]
+[2023.01.06-18.23.30:594][538]Discovering modules, targets and source code for project...
+[2023.01.06-18.23.32:706][538]Binding IntelliSense data...
+[2023.01.06-18.23.37:383][538]Binding IntelliSense data... 100%
+[2023.01.06-18.23.37:384][538]Writing project files...
+[2023.01.06-18.23.41:610][538]Writing project files... 100%
+[2023.01.06-18.31.06:023][147]Candidate modules for hot reload:
+[2023.01.06-18.31.06:023][147]  ToonTanks
+[2023.01.06-18.31.06:032][147]Launching UnrealBuildTool... [D:/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5747 ToonTanksEditor Win64 Development -Project="D:/UE Projects/ToonTanks 5.0/ToonTanks.uproject" "D:/UE Projects/ToonTanks 5.0/ToonTanks.uproject"  -IgnoreJunk]
+[2023.01.06-18.31.06:037][147]Warning: Starting HotReload took  0.0s.
+[2023.01.06-18.31.26:054][896]BlueprintLog: New page: Compile BP_ToonTanksPlayerController
+[2023.01.06-18.31.26:106][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.01.06-18.31.26:917][988]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2023.01.06-18.31.26:918][988]LogSavePackage: Moving '../../../../UE Projects/ToonTanks 5.0/Saved/BP_ToonTanksPlayerController96FFF5844BB852ACDE898B9835D70C7F.tmp' to '../../../../UE Projects/ToonTanks 5.0/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2023.01.06-18.31.26:936][988]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2023.01.06-18.31.26:936][988]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: New page: Compilation - Jan 6, 2023, 8:31:47 PM
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Log file: C:\Users\mange\AppData\Local\UnrealBuildTool\Log.txt
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE Projects\ToonTanks 5.0).
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2023.01.06-18.31.47:704][999]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE Projects\ToonTanks 5.0\ToonTanks.uproject" "D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mange\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 9,7618802 seconds
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Building ToonTanksEditor...
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [Adaptive Build] Excluded from ToonTanks unity file: ToonTanksGameMode.cpp, ToonTanksPlayerController.cpp
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
+[2023.01.06-18.31.47:704][999]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2023.01.06-18.31.47:704][999]CompilerResultsLog:   Requested 1,5 GB free memory per action, 4,15 GB available: limiting max parallel actions to 2
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: Building 8 actions with 2 processes...
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [1/8] Compile ToonTanksGameMode.cpp
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [2/8] Compile HealthComponent.cpp
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [3/8] Compile ToonTanksPlayerController.cpp
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [4/8] Compile ToonTanksPlayerController.gen.cpp
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [5/8] Compile ToonTanksGameMode.gen.cpp
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [6/8] Link UnrealEditor-ToonTanks-5747.lib
+[2023.01.06-18.31.47:704][999]CompilerResultsLog:    Creando biblioteca D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-5747.lib y objeto D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-5747.exp
+[2023.01.06-18.31.47:704][999]CompilerResultsLog: [7/8] Link UnrealEditor-ToonTanks-5747.dll
+[2023.01.06-18.31.47:704][999]CompilerResultsLog:    Creando biblioteca D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-5747.suppressed.lib y objeto D:\UE Projects\ToonTanks 5.0\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-5747.suppressed.exp
+[2023.01.06-18.31.47:705][999]CompilerResultsLog: [8/8] WriteMetadata ToonTanksEditor.target
+[2023.01.06-18.31.47:705][999]CompilerResultsLog: Total time in Parallel executor: 26,99 seconds
+[2023.01.06-18.31.47:705][999]CompilerResultsLog: Total execution time: 41,38 seconds
+[2023.01.06-18.31.47:705][999]LogMainFrame: MainFrame: Module compiling took 41.688 seconds
+[2023.01.06-18.31.47:751][999]LogClass: ToonTanksGameMode Reload.
+[2023.01.06-18.31.47:761][999]LogClass: Could not find existing class ToonTanksGameMode in package /Script/ToonTanks for reload, assuming new or modified class
+[2023.01.06-18.31.47:784][999]Re-instancing ToonTanksGameMode after reload.
+[2023.01.06-18.31.47:956][999]Display: HotReload took 41.9s.
+[2023.01.06-18.31.47:956][999]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 2 functions remapped
+[2023.01.06-18.31.53:472][314]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.06-18.31.53:483][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.06-18.31.53:483][314]PIE: New page: PIE session: Main (Jan 6, 2023, 8:31:53 PM)
+[2023.01.06-18.31.53:509][314]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2023.01.06-18.31.53:518][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009123s)
+[2023.01.06-18.31.53:518][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.009247s)
+[2023.01.06-18.31.53:519][314]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.06-18.31.53:519][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.06-18.31.53:519][314]LogAIModule: Creating AISystem for world Main
+[2023.01.06-18.31.53:520][314]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2023.01.06-18.31.53:570][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.01.06-18.31.53:571][314]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.01.06-18.31.53:571][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.06-18.31.53:571][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.06-18.31.53:571][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.06-18.31.53:571][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.06-18.31.53:571][314]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.06-18.31.53:571][314]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.06-18.31.53:571][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.06-18.31.53:571][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.06-18.31.53:571][314]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.06-18.31.53:571][314]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.06-18.31.53:571][314]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.06-18.31.53:575][314]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.06-18.31.53:613][314]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech PRO X Gaming Headset)
+[2023.01.06-18.31.53:613][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.06-18.31.53:613][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.06-18.31.53:613][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.06-18.31.53:614][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.01.06-18.31.53:614][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2023.01.06-18.31.53:615][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.01.06-18.31.53:615][314]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.01.06-18.31.53:615][314]LogInit: FAudioDevice initialized.
+[2023.01.06-18.31.53:615][314]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2023.01.06-18.31.53:631][314]LogLoad: Game class is 'BP_ToonTanksGameMode_C'
+[2023.01.06-18.31.53:632][314]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.06-19.31.53
+[2023.01.06-18.31.53:633][314]LogWorld: Bringing up level for play took: 0.002428
+[2023.01.06-18.31.53:636][314]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.01.06-18.31.53:638][314]PIE: Server logged in
+[2023.01.06-18.31.53:639][314]PIE: Play in editor total start time 0.163 seconds.
+[2023.01.06-18.32.04:839][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.06-18.32.04:839][599]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2023.01.06-18.32.04:839][599]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.06-18.32.04:839][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-18.32.04:851][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.06-18.32.04:856][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.06-18.32.04:891][599]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.06-18.32.04:892][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.01.06-18.32.04:893][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.01.06-18.32.04:897][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.06-18.32.04:910][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.06-18.32.04:936][600]LogPlayLevel: Display: Destroying online subsystem :Context_5
